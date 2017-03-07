@@ -1,0 +1,44 @@
+body {
+    background: #b0bec5;
+}
+
+.title-pag {
+    background-color: green;
+    text-align: center;
+    color: black;
+}
+
+.menu {
+    width: 15%;
+    height: 550px;
+    margin: 0px 20px;
+    float: left;
+    border-right: 3px solid darkblue;
+    font-family: sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.meeting {
+    display:inline-block;
+    font-family: Arial;
+}
+
+.last-post {
+    width: 15%;
+    margin: 0px 20px;
+    float: right;
+    border: 3px solid darkblue;
+    font-family: tahoma;
+}
+
+.last-post ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+}

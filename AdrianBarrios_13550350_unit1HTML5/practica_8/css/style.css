@@ -1,0 +1,251 @@
+html,
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffb74d;
+}
+
+
+
+header h1 {
+
+    text-align: center;
+
+    margin: 0;
+
+}
+
+
+
+h1 {
+
+    text-transform: uppercase;
+
+}
+
+#Curr {
+    color: darkblue;
+}
+
+#Vita {
+    color: darkblue;
+}
+
+pre {
+
+    font-style: italic;
+
+    font-family: Arial;
+
+    margin: 0;
+
+}
+
+
+
+p {
+
+    font-family: Arial;
+
+}
+
+
+
+pre,
+
+p {
+
+    display: inline;
+
+}
+
+
+
+table {
+
+    width: 100%;
+
+    text-align: left;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+table th,
+
+table tr {
+
+    font-weight: normal;
+
+}
+
+
+
+.years {
+
+    width: 20%;
+
+    font-family: Lucida Console;
+
+}
+
+
+
+.school {
+
+    text-align: left;
+
+    width: 40%;
+
+}
+
+
+
+#secProfExp p {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+nav {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial;
+
+}
+
+
+
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 15%;
+
+    background-color: #f1f1f1;
+
+    height: 100%;
+
+    position: fixed;
+
+    overflow: auto;
+
+}
+
+
+
+li a {
+
+    display: block;
+
+    color: #000;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+li a:hover {
+
+    background-color: #555;
+
+    color: white;
+
+}
+
+
+
+header,
+
+section {
+
+    width: 83%;
+
+    float: right;
+
+}
+
+
+
+#hrBl,
+
+#hrOr {
+
+    width: 99%;
+
+}
+
+
+
+header {
+
+    padding: 20% 0;
+
+}
+
+
+
+#secPersonalData {
+
+    padding: 20% 0;
+
+}
+
+
+
+#secEducation {
+
+    padding: 19% 0;
+
+}
+
+
+
+#secProfExp {
+
+    padding: 20% 0;
+
+}
+
+
+
+#secCommunication {
+
+    padding: 20% 0;
+
+}
+
+
+
+#secSkills {
+
+    padding: 13% 0;
+
+}
+
+
+
+section h1 {
+
+    text-align: center;
+
+}

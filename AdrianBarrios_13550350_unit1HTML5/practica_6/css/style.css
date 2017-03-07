@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    background-color: #fff59d;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1%;
+    background: #b71c1c;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font: bold;
+    background-color: #b71c1c;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.links {
+	text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+article {
+	width: 49%;
+    display: inline;
+    vertical-align: top;
+    margin-top: 7%;
+	text-align: center;
+    font-family: sans-serif;
+}
+
+#news {
+	float: left;
+    border-right: 3px solid gray;
+}
+
+#announcements {
+	float: right;
+}

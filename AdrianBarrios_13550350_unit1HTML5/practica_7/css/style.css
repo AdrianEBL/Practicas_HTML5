@@ -1,0 +1,27 @@
+body {
+	background-color: #e0e0e0;
+	font-family: Arial;
+}
+
+header {
+	background-color: gray;
+	color: darkblue;
+	text-align: center;
+}
+
+#curr {
+	margin-bottom: 0px;
+}
+#vita {
+	margin-top: 0px;
+}
+
+.school {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.years {
+	text-align: left;
+	margin-left: 20px;
+}
