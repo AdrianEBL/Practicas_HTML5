@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Exercise #11 - Making a Responsive Web Page.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="public/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="public/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom Fonts -->
+    <link href="public/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Theme CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span> Search <i class="fa fa-search"></i>
+                </button>
+                <a class="navbar-left" href="#page-top">
+                    <img class="nav" src="public/img/logo.png">
+                </a>
+                <a class="navbar-brand titlepg" href="#page-top"> BARCAR </a>
+            </div>
+
+            <div class="col-sm-3 col-md-3 pull-right collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <form class="navbar-form navbar-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control search-query" placeholder="Search" name="srch-term" id="srch-term">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+                </form>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">PARTS <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="page-scroll"><a href="#gallery">Populars</a></li>
+                            <li class="page-scroll"><a href="#about">About</a></li>
+                            <li class="page-scroll"><a href="#contact">Comments</a></li>
+                        </ul>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="page_a.html">Sedans</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="page_b.html">Freight</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="page_c.html">Sports</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive img-circle" src="public/img/corvette.jpg" alt="">
+                    <div class="intro-text">
+                        <h1 class="name">Start Watch Cars</h1>
+                        <hr class="star-light">
+                        <span class="skills">Cars Web - Different Types - All Cars of Moment</span>
+                    </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <a class="btn btn-lg btn-outline" href="http://www.autocosmos.com.mx" target="_black">
+                            <i class="fa fa-flash"></i> Catalogue 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- gallery Grid Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Populars</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 gallery-item">
+                    <a href="#galleryModal1" class="gallery-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="public/img/gallery/popular_a.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                    <a href="#galleryModal2" class="gallery-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="public/img/gallery/popular_b.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                    <a href="#galleryModal3" class="gallery-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="public/img/gallery/popular_c.jpg" class="img-responsive" alt="Circus tent">
+                    </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                    <a href="#galleryModal4" class="gallery-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="public/img/gallery/popular_d.jpg" class="img-responsive" alt="Game controller">
+                    </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                    <a href="#galleryModal5" class="gallery-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="public/img/gallery/popular_e.jpg" class="img-responsive" alt="Safe">
+                    </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                    <a href="#galleryModal6" class="gallery-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="public/img/gallery/popular_f.jpg" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>The history of the car begins with steam-powered vehicles of the eighteenth century. In 1885 the first automobile vehicle was created by internal combustion engine with gasoline. It is divided into a series of stages marked by major technological milestones.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Nowadays they have changed a lot of cars, we see that they are handling new models and what worries the designers is to take care of the planet. Technology has given a 360-degree turnaround to cars.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Questions and Comments</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="message">Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 text-center">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>1101 Industrias Avenue
+                            <br>Chihuahua Rev, CP 31130</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Social Networks</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About CarWeb</h3>
+                        <p>CarWeb is a web page create by watch the old and new cars in market, this page has been created by <a href="index.html">A. Barrios</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Weblearn 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- gallery Modals -->
+    <div class="gallery-modal modal fade" id="galleryModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Watch this Car</h2>
+                            <hr class="star-primary">
+                            <img src="public/img/gallery/popular_a.jpg" class="img-responsive img-centered" alt="">
+                            <p>This car is the best option if you search and want a durable car <a href="http://www.autocosmos.com.mx" target="_black">very cool</a>. On their website, you can watch the best cars of 2017 year and compare the different options available.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Start Buy</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">May 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-modal modal fade" id="galleryModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Watch this Car</h2>
+                            <hr class="star-primary">
+                            <img src="public/img/gallery/popular_b.jpg" class="img-responsive img-centered" alt="">
+                            <p>This car is the best option if you search and want a durable car <a href="http://www.autocosmos.com.mx" target="_black">very cool</a>. On their website, you can watch the best cars of 2017 year and compare the different options available.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Start Buy</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">May 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-modal modal fade" id="galleryModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Watch this Car</h2>
+                            <hr class="star-primary">
+                            <img src="public/img/gallery/popular_c.jpg" class="img-responsive img-centered" alt="">
+                            <p>This car is the best option if you search and want a durable car <a href="http://www.autocosmos.com.mx" target="_black">very cool</a>. On their website, you can watch the best cars of 2017 year and compare the different options available.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Start Buy</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">May 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-modal modal fade" id="galleryModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Watch this Car</h2>
+                            <hr class="star-primary">
+                            <img src="public/img/gallery/popular_d.jpg" class="img-responsive img-centered" alt="">
+                            <p>This car is the best option if you search and want a durable car <a href="http://www.autocosmos.com.mx" target="_black">very cool</a>. On their website, you can watch the best cars of 2017 year and compare the different options available.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Start Buy</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">May 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-modal modal fade" id="galleryModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Watch this Car</h2>
+                            <hr class="star-primary">
+                            <img src="public/img/gallery/popular_e.jpg" class="img-responsive img-centered" alt="">
+                            <p>This car is the best option if you search and want a durable car <a href="http://www.autocosmos.com.mx" target="_black">very cool</a>. On their website, you can watch the best cars of 2017 year and compare the different options available.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Start Buy</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">May 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-modal modal fade" id="galleryModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Watch this Car</h2>
+                            <hr class="star-primary">
+                            <img src="public/img/gallery/popular_f.jpg" class="img-responsive img-centered" alt="">
+                            <p>This car is the best option if you search and want a durable car <a href="http://www.autocosmos.com.mx" target="_black">very cool</a>. On their website, you can watch the best cars of 2017 year and compare the different options available.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Start Buy</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">May 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://www.autocosmos.com.mx" target="_black">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
